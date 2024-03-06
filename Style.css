@@ -1,0 +1,473 @@
+  * {
+    margin: 0;
+  }
+
+  /*********** NAVIGATION BAR **********/
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8% 2%;
+    background-color: rgba(0, 0, 0, 0.845);
+    align-items: center;
+  }
+  .big {
+    color: gold;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  .small {
+    color: aliceblue;
+    text-decoration: underline;
+    font-size: 15px;
+  }
+
+  /*********** CLOCK **********/
+  #clock {
+    background-color: rgb(249, 238, 224);
+    font-size: 50px;
+    width: 100%;
+    color: rgba(81, 84, 84, 0.827) ;
+    text-align: center;
+    border: 4px dotted rgba(255, 217, 0, 0.882);
+    border-radius: 0px;
+    padding-top: -12%;
+ }
+ a h1 {
+    font-size: 15px;
+ }
+section {
+    height: 40vh;
+    padding-top: 60%;
+}
+section h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3px;
+    color: rgba(42, 45, 45, 0.827);
+ }
+ .section {
+    height: 200px;
+    padding-bottom: 250px;
+    padding-top: 225px;
+ }
+
+ /*********** FOOTER **********/
+.foot {
+    background-color: gray;
+    justify-content: center;
+    padding: 10% 0px;
+    border-radius: 2px;
+    text-align: center;
+    height: 5vh;
+}
+ .socials .fa-twitter, .fa-instagram, .fa-linkedin {
+    color: rgb(71, 72, 73);
+    padding: 3px;
+    padding-top: 3%;
+    font-size: 20px;
+ }
+
+ /*********** CALCULATOR **********/
+ section {
+    padding-top: 100px;
+    padding-bottom: 92px;
+ }
+ section .contain {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    padding-bottom: 10%;
+   }
+   section .row {
+    height: 20vh;
+   }
+   .calculator {
+    background: rgb(58, 57, 57);
+    padding: 20px;
+    border-radius: 30px;
+   }
+   .footer {
+    background-color: gray;
+    justify-content: center;
+    margin-top: 30%;
+    padding: 10% 0px;
+    border-radius: 2px;
+    text-align: center;
+    height: 5vh;
+   }
+   .input{
+    background: #CBCBC8;
+    border-radius: 20px;
+    color: blue;
+    width:100%;
+    padding: 10px 8px;
+   }
+   form .display {
+    width: 228px;
+   }
+   form input {
+    border: 0px;
+    outline: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+   }
+
+   /*********** MEDIA QUERIES **********/
+@media only screen and (min-width: 280px) {
+    /*********** NAVIGATION BAR **********/
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8% 2%;
+    background-color: rgba(0, 0, 0, 0.845);
+    align-items: center;
+  }
+  .big {
+    color: gold;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .small {
+    color: aliceblue;
+    text-decoration: underline;
+    font-size: 10px;
+  }
+
+  /*********** CLOCK **********/
+  #clock {
+    background-color: rgb(249, 238, 224);
+    font-size: 40px;
+    width: 100%;
+    color: rgba(81, 84, 84, 0.827) ;
+    text-align: center;
+    border: 4px dotted rgba(255, 217, 0, 0.882);
+    border-radius: 0px;
+    padding-top: -12%;
+ }
+ a h1 {
+    font-size: 10px;
+ }
+section {
+    height: 40vh;
+    padding-top: 60%;
+}
+section h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 3px;
+    color: rgba(42, 45, 45, 0.827);
+ }
+ .section {
+    height: 200px;
+    padding-bottom: 250px;
+    padding-top: 225px;
+ }
+
+ /*********** FOOTER **********/
+.foot {
+    background-color: gray;
+    justify-content: center;
+    padding: 10% 0px;
+    border-radius: 2px;
+    text-align: center;
+    height: 5vh;
+}
+ .socials .fa-twitter, .fa-instagram, .fa-linkedin {
+    color: rgb(71, 72, 73);
+    padding: 3px;
+    padding-top: 3%;
+    font-size: 13px;
+ }
+
+ /*********** CALCULATOR **********/
+ section {
+    padding-top: 100px;
+    padding-bottom: 92px;
+ }
+ section .contain {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 59px;
+    padding-bottom: 10%;
+   }
+   section .row {
+    height: 100px;
+    width: 280px;
+   }
+   .calculator {
+    background: rgb(58, 57, 57);
+    padding: 10px 10px;
+    border-radius: 15px;
+    width: 258px;
+
+   }
+   .footer {
+    background-color: gray;
+    justify-content: center;
+    margin-top: 30%;
+    padding: 10% 0px;
+    border-radius: 2px;
+    text-align: center;
+    height: 5vh;
+   }
+   .point {
+    size: 25px;
+   }
+   .operator {
+    size: 25px;
+   }
+   .input{
+    background: #CBCBC8;
+    border-radius: 20px;
+    color: blue;
+    width:100%;
+    size: 25px;
+    padding: 10px 8px;
+   }
+   form .display {
+    width: 225px;
+    height: 80px;
+   }
+   form input {
+    border: 0px;
+    outline: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+   }
+}
+@media only screen and (min-width: 768px) {
+   /*********** NAVIGATION BAR **********/
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8% 2%;
+    background-color: rgba(0, 0, 0, 0.845);
+    align-items: center;
+  }
+  .big {
+    color: gold;
+    font-size: 35px;
+    text-decoration: none;
+  }
+  .small {
+    color: aliceblue;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+
+  /*********** CLOCK **********/
+  #clock {
+    background-color: rgb(249, 238, 224);
+    font-size: 60px;
+    width: 100%;
+    color: rgba(81, 84, 84, 0.827) ;
+    text-align: center;
+    border: 4px dotted rgba(255, 217, 0, 0.882);
+    border-radius: 0px;
+    padding-top: -12%;
+ }
+ a h1 {
+    font-size: 25px;
+ }
+section {
+    height: 40vh;
+    padding-top: 60%;
+}
+section h3 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3px;
+    color: rgba(42, 45, 45, 0.827);
+ }
+ 
+ /*********** FOOTER **********/
+.foot {
+    background-color: gray;
+    justify-content: center;
+    padding: 10% 0px;
+    border-radius: 2px;
+    text-align: center;
+    height: 5vh;
+}
+ .socials .fa-twitter, .fa-instagram, .fa-linkedin {
+    color: rgb(71, 72, 73);
+    padding: 3px;
+    padding-top: 3%;
+    font-size: 30px;
+ }
+
+ /*********** CALCULATOR **********/
+ section {
+    padding-top: 100px;
+    padding-bottom: 92px;
+ }
+ section .contain {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    padding-bottom: 10%;
+   }
+   section .row {
+    height: 20vh;
+   }
+   .calculator {
+    background: rgb(58, 57, 57);
+    padding: 20px;
+    border-radius: 30px;
+   }
+   .footer {
+    background-color: gray;
+    justify-content: center;
+    margin-top: 30%;
+    padding: 10% 0px;
+    border-radius: 2px;
+    text-align: center;
+    height: 5vh;
+   }
+   .input{
+    background: #CBCBC8;
+    border-radius: 20px;
+    color: blue;
+    width:100%;
+    padding: 10px 8px;
+   }
+   form .display {
+    width: 228px;
+   }
+   form input {
+    border: 0px;
+    outline: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+   }
+
+}
+@media only screen and (min-width: 1000px) {
+    /*********** NAVIGATION BAR **********/
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 2%;
+    background-color: rgba(0, 0, 0, 0.845);
+    align-items: center;
+  }
+  .big {
+    color: gold;
+    font-size: 55px;
+    text-decoration: none;
+  }
+  .small {
+    color: aliceblue;
+    text-decoration: underline;
+    font-size: 32px;
+  }
+
+  /*********** CLOCK **********/
+  #clock {
+    background-color: rgb(249, 238, 224);
+    font-size: 80px;
+    width: 100%;
+    color: rgba(81, 84, 84, 0.827) ;
+    text-align: center;
+    border: 4px dotted rgba(255, 217, 0, 0.882);
+    border-radius: 0px;
+    padding-top: -12%;
+ }
+ a h1 {
+    font-size: 38px;
+ }
+section {
+    height: 60vh;
+    padding-top: 80%;
+}
+section h3 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 3px;
+    color: rgba(42, 45, 45, 0.827);
+ }
+ 
+ /*********** FOOTER **********/
+.foot {
+    background-color: gray;
+    justify-content: center;
+    padding: 10% 0px;
+    border-radius: 2px;
+    text-align: center;
+    height: 5vh;
+    margin-top: 150px;
+}
+ .socials .fa-twitter, .fa-instagram, .fa-linkedin {
+    color: rgb(71, 72, 73);
+    padding: 3px;
+    padding-top: 3%;
+    font-size: 40px;
+ }
+
+ /*********** CALCULATOR **********/
+ section {
+    padding-top: 200px;
+    padding-bottom: 20px;
+ }
+ section .contain {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    padding-bottom: 10%;
+   }
+   section {
+    height: 560;
+   }
+   .calculator {
+    background: rgb(58, 57, 57);
+    padding: 20px;
+    border-radius: 30px;
+   }
+   .footer {
+    background-color: gray;
+    justify-content: center;
+    margin-top: 10%;
+    padding: 10% 0px;
+    border-radius: 2px;
+    text-align: center;
+    height: 5vh;
+   }
+   .input{
+    background: #CBCBC8;
+    border-radius: 20px;
+    color: blue;
+    width:100%;
+    padding: 10px 8px;
+   }
+   form .display {
+    width: 228px;
+   }
+   form input {
+    border: 0px;
+    outline: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+   }
+
+}
+
